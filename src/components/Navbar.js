@@ -1,9 +1,7 @@
 import React from 'react';
 import Posts from '../domaci/Post';
 import Pages from '../domaci/Page';
-import './style.css';
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
-
 
 
 function Navbar() {
