@@ -9,18 +9,18 @@ function Navbar() {
         <Routes>
     <div>
       <Link to="/">
-      <button on onClick={}><img src="logo.jpg" alt="Logo" id="logo" /></button>
+      <button on onClick={() => ("navbar")}><img src="logo.jpg" alt="Logo" id="logo" /></button>
       </Link>
       <div className='drugideo'>
         <ul>
           <li>
             <Link to="/about">
-              <button onClick={}></button>
+              <button onClick={() => ("./AboutUs")}></button>
             </Link>
           </li>
           <li>
             <Link to="/post">
-              <button on onClick={}>Post</button></Link>
+              <button on onClick={() => ("./post")}>Post</button></Link>
           </li>
         </ul>
       </div>
