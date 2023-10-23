@@ -2,14 +2,14 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Posts from './domaci/Post';
-import Pages from './domaci/Page';
+
 // import './style.css';
 // import React, { useState } from "react";
 
 
 function App() {
   return (
-    <div className="App">
+     <div className="App">
     {/* <BrowserRouter> */}
     <Navbar />
   

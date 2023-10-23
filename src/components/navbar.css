@@ -1,0 +1,27 @@
+.container {
+    height: 10vh;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7%;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+  }
+  
+  .active {
+    font-size: 26px;
+    color: rgb(168, 95, 95);
+    text-decoration: none;
+  }
+  
+  .unActive {
+    font-size: 23px;
+    color: rgb(116, 62, 71);
+    text-decoration: none;
+  }
