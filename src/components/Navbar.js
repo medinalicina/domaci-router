@@ -15,7 +15,7 @@ function Navbar() {
         <ul>
           <li>
             <Link to="/about">
-              <button onClick={() => ("./AboutUs")}></button>
+            <button onClick={() => ("./AboutUs")}></button>
             </Link>
           </li>
           <li>
